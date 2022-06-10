@@ -1,6 +1,6 @@
 {
   "builds": [
-    {"src": "/main_app/main.py", "use": "git+https://github.com/Galadrin/py-vercel.git#a25f0b74102cef61c5000ca258c0339e8c2028af"}
+    {"src": "/main_app/main.py", "use": "git+https://github.com/Galadrin/py-vercel.git#fded41abcb7b7f502a4b81e1a625122e23ddd0ef"}
   ],
   "routes": [
     {"src": "/(.*)", "dest": "main_app/main.py"}
