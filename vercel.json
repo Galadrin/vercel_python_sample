@@ -1,6 +1,6 @@
 {
   "builds": [
-    {"src": "/main_app/main.py", "use": "@jgtvares/py-vercel"}
+    {"src": "/main_app/main.py", "use": "@ardnt/vercel-python-wsgi"}
   ],
   "routes": [
     {"src": "/(.*)", "dest": "main_app/main.py"}
