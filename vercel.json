@@ -1,6 +1,6 @@
 {
   "builds": [
-    {"src": "/main_app/main.py", "use": "@potatohd/py-vercel"}
+    {"src": "/main_app/main.py", "use": "git+https://github.com/jgtvares/py-vercel.git#v2.1.0"}
   ],
   "routes": [
     {"src": "/(.*)", "dest": "main_app/main.py"}
